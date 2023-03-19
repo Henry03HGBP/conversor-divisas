@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.ecestaticos.com/imagestatic/clipping/395/951/395951e7eb414c3797c1e00fa26e2dd7/cuantos-paises-eres-capaz-de-reconocer-con-tan-solo-ver-sus-banderas.jpg?mtime=1440168957);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:aquamarine;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header h2{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.select{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+.form button{
+    width: 40%;
+    height: 30px;
+    outline: none;
+    border-color: blue;
+    background-color: yellow;
+    margin-top: 10px;
+}
+.span{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: blue;
+    color:white;
+}
+.resultados{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 800px;
+    max-width: 400px;
+}
+@media screen 
+and (min-device-width: 1100px)
+and (max-device-width: 1200px){
+    body{
+        background-color: rgb(5, 0, 11);
+    }
+    .form{
+        flex-direction: row-reverse;
+    }
+    .form.input{
+        margin-bottom: 0px;
+    }
+}
+@media screen
+and (min-device-width: 325px)
+and (max-device-width: 327px)  {
+  body{
+    background-color: rgb(5, 0, 11);
+  }
+  .form{
+    flex-direction: row-reverse;
+  }
+  .form input{
+    margin-bottom: 0px;
+  }
+} 
